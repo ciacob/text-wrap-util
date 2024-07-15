@@ -1,0 +1,32 @@
+{
+  "type": "module",
+  "name": "text-wrap-util",
+  "version": "1.0.0",
+  "description": "Flexible and versatile text wrapping JavaScript function that prioritizes existing line breaks within the text, supports custom break points, with the option of removing them or not from the text, and permits adding custom gutters or line prefixes. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/wrapText.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciacob/text-wrap-util.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "wrap",
+    "textwrap",
+    "text",
+    "javascript"
+  ],
+  "author": "Claudius Iacob <claudius.iacob@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ciacob/text-wrap-util/issues"
+  },
+  "homepage": "https://github.com/ciacob/text-wrap-util#readme",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.6.0"
+  }
+}
