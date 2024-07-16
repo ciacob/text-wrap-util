@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "text-wrap-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flexible and versatile text wrapping JavaScript function that prioritizes existing line breaks within the text, supports custom break points, with the option of removing them or not from the text, and permits adding custom gutters or line prefixes. ",
   "main": "index.js",
   "scripts": {

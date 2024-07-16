@@ -128,12 +128,13 @@ console.log(result);
 ```
 
 ## Tests
-This project uses Mocha and Chai for testing. To run the tests, make sure you have these installed globally first:
+This project uses Mocha and Chai for testing. However, in order not to clutter the project with the Mocha modules I decided to rely on globally installed Mocha instead. So, if you want to run the tests, please do from inside the `text-wrap-util` folder:
+
 ```bash
 npm install -g mocha chai
+npm link chai
 ``` 
-
-Then, to actually run the tests, do:
+This ensures `mocha` and `chai` are installed globally and symlinked from your project's `node_modules` folder. Then, to actually run the tests, you can do:
 ```bash
 npm test
 ```
