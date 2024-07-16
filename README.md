@@ -128,7 +128,12 @@ console.log(result);
 ```
 
 ## Tests
-This project uses Mocha and Chai for testing. To run the tests, use the following command:
+This project uses Mocha and Chai for testing. To run the tests, make sure you have these installed globally first:
+```bash
+npm install -g mocha chai
+``` 
+
+Then, to actually run the tests, do:
 ```bash
 npm test
 ```

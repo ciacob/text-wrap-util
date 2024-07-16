@@ -26,7 +26,5 @@
   },
   "homepage": "https://github.com/ciacob/text-wrap-util#readme",
   "dependencies": {
-    "chai": "^5.1.1",
-    "mocha": "^10.6.0"
   }
 }
