@@ -1,4 +1,4 @@
-import wrapText from "../index.js";
+import wrapText from "../index.mjs";
 import { expect } from "chai";
 
 describe("wrapText", () => {
