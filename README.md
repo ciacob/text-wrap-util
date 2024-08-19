@@ -11,16 +11,14 @@
 
 ## Installation
 
-To use this utility, clone the repository and install the dependencies:
+To use this utility, first install it via `npm`:
 
 ```bash
-git clone https://github.com/ciacob/text-wrap-util.git
-cd text-wrap-util
-npm install
+npm i text-wrap-util
 ```
 
 ## Usage
-Import the wrapText function and use it as needed:
+Import the `wrapText` function and use it as needed:
 
 ```javascript
 import wrapText from './index.js';
